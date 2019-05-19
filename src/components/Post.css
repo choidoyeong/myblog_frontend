@@ -1,0 +1,15 @@
+.post {
+    margin: 2rem;
+    border: solid 0.5rem #FF5FA2;
+    background: #ffffff;
+}
+
+.title {
+    font-size: 5rem;
+    border-bottom: solid 1rem #FF5FA2;
+}
+
+.content {
+    margin: 1rem;
+}
+
