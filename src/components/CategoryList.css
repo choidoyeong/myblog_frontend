@@ -1,0 +1,16 @@
+.categoryMenu {
+    background: pink;
+}
+
+h2 {
+    margin: 0rem;
+}
+
+.categoryWrapper{
+    padding: 1rem;
+}
+
+.category {
+   text-decoration: none;
+   color: white; 
+}
