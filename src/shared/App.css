@@ -1,0 +1,19 @@
+.header-wrapper {
+    position: fixed;
+    width: 100%;
+}
+.aside {
+    position: fixed;
+    display: inline-block;
+    height: calc(100vh - 4rem);
+    width: 30rem;
+    top: 4rem;
+}
+
+.main {
+    position: relative;
+    margin: 1rem;
+    display: inline-block;
+    left: 30rem;
+    top: 4rem;
+}

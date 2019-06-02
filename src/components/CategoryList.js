@@ -20,14 +20,13 @@ class CategoryList extends Component {
         const { categorys } = this.state;
 
         const categorylist = categorys.map(({id, category_name}) => (
-            <div id={id} key={id} className="categoryWrapper" >
+            <div id={id} key={id} className="categoryWrapper">
                 <Link to={`/categorys/${category_name}`} className="category" >{category_name}</Link>
             </div>
         ))
         return (
             <div className='categoryMenu'>
-                <h2>Categorys</h2>
-                <div>
+                <div className="categorysWrapper">
                 {categorylist}
                 </div>
             </div>

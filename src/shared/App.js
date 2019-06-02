@@ -12,13 +12,19 @@ class App extends Component {
   render() {
     return (
     <div>
-      <Header/>
-      <CategoryList/>
-      <Switch>
-        <Route path="/categorys/:id" component={PostList} />
-        <Route exact path="/" component={PostList} />
-      </Switch>
-      <Route path="/posts/:id" component={Post} />
+      <div className="header-wrapper">
+        <Header/>
+      </div>
+      <aside className="aside">
+        <CategoryList/>
+      </aside>
+      <div className="main">
+        <Switch>
+          <Route path="/categorys/:id" component={PostList} />
+          <Route exact path="/" component={PostList} />
+        </Switch>
+        <Route path="/posts/:id" component={Post} />
+      </div>
     </div>
     );
   }

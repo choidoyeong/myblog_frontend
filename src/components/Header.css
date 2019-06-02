@@ -3,10 +3,18 @@
     width: 100%;
     background: #FF5FA2;
 }
+
+.logo-wrapper {
+    display: inline-block;
+    height: 100%;
+    width: 30rem;
+    text-align: center;
+}
+
 .logo {
-    line-height: 4rem;
+    display: inline-block;
+    margin: 1rem 0rem;
     font-size: 2rem;
-    margin-left: 1rem;
     font-weight: bold;
     color: #FCC89B;
     text-decoration: None;
