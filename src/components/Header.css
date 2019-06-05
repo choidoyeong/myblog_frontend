@@ -19,3 +19,44 @@
     color: #FCC89B;
     text-decoration: None;
 }
+
+.login-wrapper {
+    display: inline-block;
+    text-align: right;
+    height: 100%;
+    width: calc(100vw - 31rem);
+}
+
+.login {
+    text-decoration: none;
+    color: #FCC89B;
+    font-size: 2rem;
+}
+
+.signup {
+    margin: 0rem 2rem;
+    text-decoration: none;
+    color: #FCC89B;
+    font-size: 2rem;
+}
+.logined {
+    display: none;
+}
+
+.user-wrapper {
+    display: none;
+    text-align: right;
+    color: #FCC89B;
+    font-size: 2rem;
+    height: 100%;
+    width: calc(100vw - 32rem);
+}
+
+.user {
+    display: inline-block;
+}
+
+.logout {
+    display: inline-block;
+    margin-left: 1rem;
+}

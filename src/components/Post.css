@@ -13,3 +13,21 @@
 .opinion {
     margin: 1rem;
 }
+
+.input-button {
+    display: inline-block;
+    background: #FF5FA2;
+    color: #FCC89B;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.opinion-input input {
+    font-size: 1.5rem;
+    border: None;
+    outline: None;
+}
+
+.input-button:hover {
+    background: pink;
+}

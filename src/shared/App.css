@@ -1,6 +1,7 @@
 .header-wrapper {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 .aside {
     position: fixed;
@@ -16,4 +17,5 @@
     display: inline-block;
     left: 30rem;
     top: 4rem;
+    z-index: 1;
 }
